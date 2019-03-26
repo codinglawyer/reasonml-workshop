@@ -26,7 +26,6 @@ let make = (~value: field, ~gameState: gameState, _children) => {
   render: _self =>
     <button
       className={getClass(gameState, value)}
-      disabled={gameState |> isFinished}>
-      value
-    </button>,
+      disabled={gameState |> isFinished}
+    />,
 };
