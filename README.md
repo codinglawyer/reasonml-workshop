@@ -1,10 +1,10 @@
 
-## Reason workshop (Tic Tac Toe)
-- classic Tic Tac Toe game developed in ReasonML using Reason-react library
+## ReasonML workshop (Tic Tac Toe)
+- classic Tic Tac Toe game developed in ReasonML using ReasonReact library
 
 1.  **Clone repo**
 
-    `git clone https://github.com/codinglawyer/reason-workshop`
+    `git clone https://github.com/codinglawyer/reasonml-workshop`
 
 2.  **Install npm dependencies**
 
@@ -22,4 +22,4 @@
 
 4.  **Open index.html in the browser**
 
-    `reason-workshop/public/index.html`
+    `reasonml-workshop/public/index.html`
