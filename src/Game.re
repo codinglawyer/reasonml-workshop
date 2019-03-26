@@ -5,9 +5,9 @@ type action =
 
 let initialState = {
   board: [
-    [Empty, Empty, Empty],
-    [Empty, Empty, Empty],
-    [Empty, Empty, Empty],
+    [Marked(Cross), Empty, Empty],
+    [Empty, Marked(Cross), Empty],
+    [Empty, Empty, Marked(Cross)],
   ],
   gameState: Playing(Cross),
 };
